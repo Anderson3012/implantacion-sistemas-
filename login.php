@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Emocion Vital</title> 
+	<title>Iniciar Sesión</title> 
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
 	<link rel="stylesheet" href="css/Login.css">
@@ -11,7 +11,7 @@
 </head>  
 <body>
     <form class="formulario">
-        <h1>Inicio de Sesion</h1>
+        <h1>Inicio de Sesión</h1>
         <div class="contenedor">
             
             <div class="input-contenedor">
@@ -26,7 +26,7 @@
         
         <input type="submit" value="INGRESAR" class="button">
         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-        <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
+        <p>¿No tienes una cuenta? <a class="link" href="registrar.php">Registrate </a></p>
     </div>
 </form>
 </body>

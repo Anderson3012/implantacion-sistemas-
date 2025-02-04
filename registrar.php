@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Emcion Vital</title> 
+	<title>Emoción Vital</title> 
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
 	<link rel="stylesheet" href="css/registro.css">
@@ -30,7 +30,7 @@
             </div>
             <input type="submit" value="REGISTRATE" class="button">
             <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-            <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar Sesion</a></p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="login.php">Iniciar Sesión</a></p>
         </div>
     </form>
 </body>

@@ -12,10 +12,10 @@
 }
 
 :root {
-    --main-color: #f4C507; /*Menu*/
+    --main-color: #f4C507; /*Botones*/
     --text-color: #fff; /*Color del texto*/
     --other-color: #000; /*otro color*/
-    --second-color: #48f0bb; 
+    --second-color: #48f0bb;
     --bg-color:#154713; /*Fondo de la pagina*/
 
     --big-font: 4.5rem;
@@ -44,7 +44,7 @@ header{
     transition: all 0.5s ease;
 }
 
-/*Logo Principal*/
+/*===========Logo Principal==================*/
 
 .logo img{
     height: 140px; /*Tamano del Logo*/
@@ -52,7 +52,7 @@ header{
     padding: 15px; 
 }
 
-/*Lista principal*/
+/*=================Lista principal==================*/
 
 .navlist {
     display:flex; /*poner la lista en horizontal*/
@@ -78,7 +78,7 @@ body {
     font-family: Arial, sans-serif; 
 }
 
-/*Estilo del icono (MENU)*/
+/*=========Estilo del icono (MENU)========*/
 
 .nav-icons i { /*Icono del Menu*/
     display: flex;
@@ -102,7 +102,7 @@ body {
 }
 
 
-/*Estilo del menu desplegable*/
+/*=========Estilo del menu desplegable=======*/
 .dropdown {
     display: none; /* Ocultar el menú por defecto */
     position: absolute;
@@ -121,15 +121,15 @@ body {
 }
 
 .dropdown a:hover {
-    background-color: #f0f0f0; /* Color de fondo al pasar el mouse */
+    background-color: #f0f0f0; /* Color de fondo al pasar el mouse*/
 }
 
-/* Mostrar el menú desplegable cuando se activa */
+/*Mostrar el menú desplegable cuando se activa*/
 .show {
     display: block;
 }
 
-/*Horario de las Consultas*/
+/*=========Horario de las Consultas========*/
 section{
     padding: 100px 6% 60px;
 }
@@ -145,7 +145,7 @@ section{
 }
 
 .home-img img{
-    width:100%;
+    width:80%;
     height:auto;
 }
 
@@ -165,7 +165,7 @@ header.sticky{
     background: var(--second-color);
 }
 
-/*Horario*/
+/*===============Horario=========*/
 
 .container {
     padding: 60px 20% 70px; /*margenes*/
@@ -198,7 +198,7 @@ header.sticky{
     margin: 16px 0;
 }
 
-/*Sobre Nosotros*/
+/*===========Acerca de Nosotros===========*/
 
 .about {
     display: grid;
@@ -207,9 +207,13 @@ header.sticky{
     gap: 4rem;
 }
 
-.about-img img{
-    width: 100%;
-    height: auto;
+.about-img {
+    width: 100%; /* Ajusta el ancho del contenedor de la imagen */
+}
+
+.about-img img {
+    width: 100%; /* Ajusta el ancho de la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .about-text h2{
@@ -225,7 +229,7 @@ header.sticky{
     margin-bottom: 3rem;
 }
 
-/*Terapias*/
+/*============Terapias============*/
 
 .middle-text{
     text-align: center;   
@@ -272,7 +276,7 @@ header.sticky{
     line-height: 30px;
 }
 
-/*Scroll*/
+/*============Scroll==========*/
 
 .scroll{
     position: fixed;

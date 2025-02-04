@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emocion Vital</title>
+    <title>Emoción Vital</title>
     <link rel="stylesheet" href="css/home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -17,7 +17,7 @@
         </div>
 
         <ul class="navlist">
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="active">Inicio</a></li>
             <li><a href="#container">Horarios</a></li>
             <li><a href="#about">Acerca De Nosotros</a></li>
             <li><a href="#shop">Terapias</a></li>
@@ -31,8 +31,8 @@
             </div>
             
             <div class="dropdown" id="dropdown-menu">
-                <a href="registrarvista.html" target="_blank">Registrarse</a>
-                <a href="loginvista.html" target="_blank">Iniciar Sesion</a>
+                <a href="registrar.php" target="_blank">Registrarse</a>
+                <a href="login.php" target="_blank">Iniciar Sesión</a>
             </div>
         </div>
 
@@ -42,8 +42,8 @@
 
     <section class="home" id="home">
         <div class="home-text">
-            <h1>Emocion <span>Vital</span> Consulta <br>con tu 
-                <span>profesional</span> mas cercano</h1>
+            <h1>Emoción <span>Vital</span> Consulta <br>con tu 
+                <span>profesional</span> más cercano</h1>
         </div>
         <div class="home-img">
             <img src="img/img1.png" alt="Imagen representativa de Emocion Vital">
@@ -72,11 +72,11 @@
     <section class="about" id="about">
         
         <div class="about-img">
-            <img src="img/img6.jpg">
+            <img src="img/img6.jpeg">
         </div>
 
         <div class="about-text">
-            <h2>Que es Emocion Vital?</h2>
+            <h2>Que es Emoción Vital?</h2>
             <p>
                 La emoción vital es la capacidad de experimentar y expresar 
                 emociones de una manera auténtica y profunda, que refleja la 
